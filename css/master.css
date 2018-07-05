@@ -1,0 +1,56 @@
+body {
+  background-color: #22364e;
+  -webkit-animation-name: background-animation;
+  -webkit-animation-duration: 4s;
+  animation-name: background-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes background-animation {
+  0% {background-color: #222222;}
+  50% {background-color: #494949;}
+  100% {background-color: #222222;}
+}
+
+@keyframes background-animation {
+  0% {background-color: #222222;}
+  50% {background-color: #494949;}
+  100% {background-color: #222222;}
+}
+
+h1 {
+  color: #dbdbdb;
+  font-family: 'Share Tech Mono', monospace;
+  -webkit-animation-name: text-animation;
+  -webkit-animation-duration: 4s;
+  animation-name: text-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+a {
+  color: #dbdbdb;
+  font-family: 'Share Tech Mono', monospace;
+  -webkit-animation-name: text-animation;
+  -webkit-animation-duration: 4s;
+  animation-name: text-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes text-animation {
+  0% {color: #dbdbdb;}
+  50% {color: #f4f4f4;}
+  100% {color: #dbdbdb;}
+}
+
+@keyframes text-animation {
+  0% {color: #dbdbdb;}
+  50% {color: #f4f4f4;}
+  100% {color: #dbdbdb;}
+}
+
+.margin {
+  margin-top: 50px;
+
+}
