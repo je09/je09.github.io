@@ -38,6 +38,17 @@ a {
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
+
+p {
+  color: #dbdbdb;
+  font-family: 'Share Tech Mono', monospace;
+  -webkit-animation-name: text-animation;
+  -webkit-animation-duration: 4s;
+  animation-name: text-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
 @-webkit-keyframes text-animation {
   0% {color: #dbdbdb;}
   50% {color: #f4f4f4;}
