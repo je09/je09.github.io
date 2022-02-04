@@ -8,15 +8,35 @@ body {
 }
 
 @-webkit-keyframes background-animation {
-  0% {background-color: #222222;}
-  50% {background-color: #494949;}
-  100% {background-color: #222222;}
+  0% {
+    background-color: #222222;
+  }
+
+  50% {
+    background-color: #494949;
+  }
+
+  100% {
+    background-color: #222222;
+  }
 }
 
 @keyframes background-animation {
-  0% {background-color: #222222;}
-  50% {background-color: #494949;}
-  100% {background-color: #222222;}
+  0% {
+    background-color: #222222;
+  }
+
+  50% {
+    background-color: #494949;
+  }
+
+  100% {
+    background-color: #222222;
+  }
+}
+
+avatar {
+  border-radius: 50%;
 }
 
 h1 {
@@ -29,7 +49,27 @@ h1 {
   animation-iteration-count: infinite;
 }
 
-a {
+h2 {
+  color: #dbdbdb;
+  font-family: 'Share Tech Mono', monospace;
+  -webkit-animation-name: text-animation;
+  -webkit-animation-duration: 4s;
+  animation-name: text-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+h3 {
+  color: #dbdbdb;
+  font-family: 'Share Tech Mono', monospace;
+  -webkit-animation-name: text-animation;
+  -webkit-animation-duration: 4s;
+  animation-name: text-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+button {
   color: #dbdbdb;
   font-family: 'Share Tech Mono', monospace;
   -webkit-animation-name: text-animation;
@@ -50,15 +90,31 @@ p {
 }
 
 @-webkit-keyframes text-animation {
-  0% {color: #dbdbdb;}
-  50% {color: #f4f4f4;}
-  100% {color: #dbdbdb;}
+  0% {
+    color: #dbdbdb;
+  }
+
+  50% {
+    color: #f4f4f4;
+  }
+
+  100% {
+    color: #dbdbdb;
+  }
 }
 
 @keyframes text-animation {
-  0% {color: #dbdbdb;}
-  50% {color: #f4f4f4;}
-  100% {color: #dbdbdb;}
+  0% {
+    color: #dbdbdb;
+  }
+
+  50% {
+    color: #f4f4f4;
+  }
+
+  100% {
+    color: #dbdbdb;
+  }
 }
 
 .margin {
