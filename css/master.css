@@ -69,6 +69,16 @@ h3 {
   animation-iteration-count: infinite;
 }
 
+h5 {
+  color: #dbdbdb;
+  font-family: 'Share Tech Mono', monospace;
+  -webkit-animation-name: text-animation;
+  -webkit-animation-duration: 4s;
+  animation-name: text-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
 button {
   color: #dbdbdb;
   font-family: 'Share Tech Mono', monospace;
